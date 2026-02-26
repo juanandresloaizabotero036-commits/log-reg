@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "name": "juan andres loaiza",
+      "email": "juanandres@gmail.com",
+      "clave": "123456"
+    },
+    {
+      "id": "6b51",
+      "usuario": "sebastian",
+      "email": "tomas@gmail.com",
+      "clave": "4747"
+    },
+    {
+      "id": "99ff",
+      "usuario": "sebastiand",
+      "email": "karihz0517@hotmail.com",
+      "clave": "4774"
+    },
+    {
+      "id": "0643",
+      "usuario": "sebastianxss",
+      "email": "nada@gmail.com",
+      "clave": "123654"
+    },
+    {
+      "id": "87ee",
+      "usuario": "angela",
+      "email": "nada12@gmail.com",
+      "clave": "123654"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrador - Pedidos</title>
+    <link rel="stylesheet" href="./css/ord.css">
+</head>
+<h1>platform of manage</h1>
+
+
+
+
+       <h2>Motor de Vistas</h2>
+
+    <!-- Navegación -->
+     
+    <button class="btn" onclick="cambiarVista('inicio')">gestion</button>
+    <button class="btn" onclick="cambiarVista('perfil')">ofertas</button>
+    <button class="btn" onclick="cambiarVista('configuracion')">Canditados</button>
+
+    <!-- Vistas -->
+    <div id="inicio" class="vista">
+        <h3>gestion de empresa</h3>
+        <p>Bienvenido a la pantalla principal</p>
+        <p>gestion de las solicitudes de ofertas de trabajos</p>
+        
+    </div>
+
+    <div id="perfil" class="vista">
+        <h3>gestion de ofertas</h3>
+        <p>aqui se crean la ofertas </p>
+        <div class="manage">
+    <input type="text" id="nombre" placeholder="Name of vacant">
+    <input type="text" id="precio" placeholder="salary">
+    <textarea id="descripcion" placeholder="Description"></textarea>
+    <button id="agregar">add</button>
+    <button id="mostrar">show</button>
+    <div id="listaProductos"></div>
+</div>
+    </div>
+
+    <div id="configuracion" class="vista">
+        <h3>candidatos</h3>
+        <p>candidatos disponibles</p>
+        <button>buscar candidatos</button>
+    
+</div>
+
+  
+
+  <script src="./js/ord.js" type="module"></script>
+</body>
+</html>

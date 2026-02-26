@@ -1,0 +1,14 @@
+system description
+
+this devide use the estructure semantics and logic of javascript, can register user and have whant login with is admin, thi page main is about the get into data with the promise, of 1 second, then is user, wel the project have a the save data in json server with is a archive in the api, the function is enter a record and can add a list of the produc, the name product, price  of product and description  the is add and save in the apis. 
+in the device is can  to make user all the  tools of the html, css and jasvacript implementing of the connnection with the api.
+
+description del sistema
+
+instructions about handle the device 
+
+you enter in the page  then You log into the page, then enter the data to determine if you are a user or administrator, if you are usuario   to goin enter in the page  with is the profile, ahi goin to find data about you  product and how can to make buy.
+
+then if you are a administrator is where you can add data about the product is for example  user with want buy or enter of the system.
+
+here more than everything is  the use json server, node js and apis 

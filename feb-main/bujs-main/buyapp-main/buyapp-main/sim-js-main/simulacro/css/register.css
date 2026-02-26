@@ -1,0 +1,41 @@
+body{
+    background: rgb(228, 227, 227);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+   background:white;
+    width: 300px;
+    margin:auto;
+    padding: 20px;
+    border-radius: 10px;
+   
+    margin-top: 200px;
+    width: 1000px;
+    height: 500px;
+  
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+}
+.nav {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+}
+input{
+    height: 30px;
+    width: 250px;
+}
+.button{
+    background: blue;
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+    height: 30px;
+}
