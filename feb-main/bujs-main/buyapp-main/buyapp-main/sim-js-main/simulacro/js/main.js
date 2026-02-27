@@ -4,13 +4,15 @@ const app = document.getElementById("app");
 
 app.innerHTML = `
   <div class="login">
-    <h2>login user</h2>
+    <h2>welcome to edutech</h2>
+    <p>join thousand of students today</p>
 
     
-    <input type="text" id="usuario" placeholder="usuario">
-    <input type="text" id="email" placeholder="email">
+    <input class="input" type="text" id="usuario" placeholder="usuario">
+    <p>email</p>
+    <input class="input" type="text" id="email" placeholder="email">
     <p>Clave</p>
-    <input type="password" id="clave" placeholder="placeholder">
+    <input class="input" type="password" id="clave" placeholder="clave">
     <hr>
     <button class="button" id="btnLogin">Entrar</button>
     <a href="register.html">Register</a>

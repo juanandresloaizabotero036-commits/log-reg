@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logo */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4f46e5; /* morado */
+}
+
+/* Centro */
+.nav-center {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.nav-center a:hover {
+  color: #4f46e5;
+}
+
+/* Derecha */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login {
+  text-decoration: none;
+  color: #333;
+}
+
+.signup {
+  text-decoration: none;
+  background-color: #4f46e5;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.signup:hover {
+  background-color: #4338ca;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+  gap: 40px;
+}
+
+/* Texto */
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  color: #1f2937;
+}
+
+.hero-text span {
+  color: #4f46e5; /* morado */
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin-top: 20px;
+  color: #6b7280;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Botón */
+.btn-primary {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #4338ca;
+}
+
+/* Imagen */
+.hero-image img {
+  width: 500px;
+  border-radius: 20px;
+}
+h3{
+    font-size: 30px;
+}
+.student {
+    background:rgb(9, 0, 128) ;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.features{
+    color: gray;
+    text-align: center;
+    margin-top: 70px;
+}
+h4{
+    color: black;
+    font-size: 40px;
+}
+.finish{
+    padding: 20px;
+    margin: 20px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    
+}
+h5 {
+    font-size: 20px;
+}
+p{
+    color: gray;
+}
+.fini{
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
